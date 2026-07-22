@@ -1,6 +1,6 @@
-# 🎮 Guess My Number!
+# 🎮 Guess The Number (literally)!
 
-A retro arcade-style number guessing game built with vanilla HTML, CSS, and JavaScript — no frameworks, no dependencies. Pick a range, take your guesses, and try to crack the number before you run out of tries.
+A retro arcade-style number guessing game built with HTML, CSS, and JavaScript — no frameworks, no dependencies. Pick a range, take your guesses, and try to crack the number before you run out of tries.
 
 ![Main screen](./assets/screenshot-main.png)
 
@@ -21,7 +21,6 @@ A retro arcade-style number guessing game built with vanilla HTML, CSS, and Java
 - Win / lose background color feedback
 - Fully responsive, mobile-friendly layout
 - Retro arcade-cabinet UI — CRT scanline overlay, glowing LED-style number display, pixel-bevel buttons
-
 
 ## Project structure
 

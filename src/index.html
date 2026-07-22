@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess The Number</title>
+  </head>
+  <body>
+    <div class="crt"></div>
+
+    <header>
+      <div class="marquee-lights" aria-hidden="true"></div>
+
+      <p class="between">
+        <label
+          >LO
+          <input type="number" class="num1" placeholder="1" />
+        </label>
+        <span class="range-sep">/</span>
+        <label
+          >HI
+          <input type="number" class="num2" placeholder="20" />
+        </label>
+      </p>
+
+      <h1>
+        <span class="title-glow">Guess The</span
+        ><span class="title-glow title-alt">Number!</span>
+      </h1>
+
+      <button class="btn again">↺ Again</button>
+
+      <div class="number">?</div>
+    </header>
+
+    <main>
+      <section class="left">
+        <input type="number" class="guess" placeholder="0" />
+        <button class="btn check">Check!</button>
+      </section>
+
+      <section class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-tries">Tries left <span class="tries">20</span></p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
