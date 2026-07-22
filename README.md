@@ -26,9 +26,10 @@ A retro arcade-style number guessing game built with HTML, CSS, and JavaScript �
 
 ```
 guess-my-number/
-├── index.html      # markup
-├── style.css        # arcade-cabinet styling
-├── script.js         # game logic
+├── src
+|    ├── index.html     # main html file
+|    ├── style.css        # arcade-cabinet styling
+|    ├── script.js         # game logic
 └── assets/           # screenshots
 ```
 
